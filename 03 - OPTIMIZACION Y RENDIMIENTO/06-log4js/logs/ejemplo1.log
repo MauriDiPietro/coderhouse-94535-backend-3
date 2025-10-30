@@ -1,0 +1,4 @@
+[2025-10-30T20:38:52.013] [ERROR] myLogger - Cheese is too ripe!
+[2025-10-30T20:38:52.016] [FATAL] myLogger - Cheese was breeding ground for listeria.
+[2025-10-30T20:40:35.896] [ERROR] prod - Cheese is too ripe!
+[2025-10-30T20:40:35.899] [FATAL] prod - Cheese was breeding ground for listeria.
