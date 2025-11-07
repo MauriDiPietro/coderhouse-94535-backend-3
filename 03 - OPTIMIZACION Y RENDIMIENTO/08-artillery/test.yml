@@ -1,0 +1,12 @@
+config:
+  target: "http://localhost:8080"
+  phases:
+    - duration: 30
+      arrivalRate: 20
+scenarios:
+  - name: "operaciones simple y compleja"
+    flow:
+      - get:
+          url: "/operacion-simple"
+      - get:
+          url: "/operacion-compleja"

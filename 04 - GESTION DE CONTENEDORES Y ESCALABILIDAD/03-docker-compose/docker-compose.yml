@@ -1,0 +1,8 @@
+version: "2.20.3"
+services:
+  mongo-docker:
+    image: mongo:latest
+    ports:
+      - "27019:27017"
+    volumes:
+      - "/d/DOCKER/MONGO/test-coder:/data/db"
