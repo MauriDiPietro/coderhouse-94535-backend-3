@@ -1,0 +1,28 @@
+{
+  "name": "01-arquitectura-capas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:mongo": "node --env-file=.env src/server.js mongo",
+    "start:fs": "node --env-file=.env src/server.js fs",
+    "test:chai": "mocha ./src/test/products-dao-chai.test.js",
+    "test:assert": "mocha ./src/test/products-dao-assert.test.js",
+    "test:node": "node ./src/test/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.1",
+    "mocha": "^11.7.5"
+  }
+}
